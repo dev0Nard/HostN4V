@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400;500;600;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Exo', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    min-height: 100vh;
+    /*background: url(../imagens/bg2.jpg) no-repeat;*/
+    background-size: cover;
+}
+.portfolio-main{
+    min-height: 100vh;
+    background: linear-gradient(
+        153.28deg,
+        rgba(255, 255, 255, 0.4) 1.19%,
+        rgba(255,255,255, 0) 100%
+    );
+    backdrop-filter: blur(42px);
+}
+
+.container{
+    width: 100%;
+    padding: 0 200px;
+}
+/*NAVBAR*/
+header{
+    padding-top: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-bar ul{
+    padding: 0;
+    margin: 0;
+}
+.navigation-bar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+
+.navigation-bar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 200px;
+    color: #292423;
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+.navigation-bar ul li a:hover{
+    opacity: 0.5;
+}
+
+.navigation-bar ul li.hire-btn{
+    margin-left: 125px !important;
+}
+.navigation-bar ul li.hire-btn a{
+    padding: 10px 32px;
+    background-color: #fff;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.navigation-bar ul li.hire-btn a:hover{
+    background: #292423;
+    color: #fff;
+    opacity: 1;
+}
+
+/*MAIN CONTENT*/
+
+.main-content-wrapper{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.col-left span{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #292423;
+    margin-bottom: 10px;
+}
+.col-left h1{
+    font-size: 37.3px;
+    font-weight: 800;
+    color: #292423;
+    line-height: 41px;
+    margin-bottom: 15px;
+}
+.col-left p{
+    width: 100%;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 145%;
+    color: #292423;
+    margin-bottom: 20px;
+    letter-spacing: 0.01em;
+}
+a.btn-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 13px 25px;
+    background: #292423;
+    width: 190px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-top: 35px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+a.btn-main:hover{
+    background-color: #fff;
+    color: #292423;
+}
+a.btn-main span{
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background: #35343d;
+    border-radius: 50px;
+    margin: 0 0 0 12px;
+    transition: all 0.3s;
+    text-align: center;
+}
+
+a.btn-main span img{
+    margin: 0 0 7px 0;
+}
+a.btn-main:hover span{
+    background: #ccc;
+}
+
+/*Experience*/
+.experience-section{
+    margin-top: 50px;
+    width: 100%;
+    padding: 40px 40px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(42px);
+    border-radius: 10px;
+}
+
+.experience-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-inner .col h3{
+    font-size: 25px;
+    color: #292423;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.experience-inner .col p{
+    font-size: 16px;
+    color: #292423;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+@media(max-width:768px) {
+    header{
+        padding-top: 15px;
+    }
+    .container{
+        padding: 0 20px;
+    }
+    .main-content-wrapper{
+        margin-top: 50px;
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .portfolio-main{
+        height: auto;
+    }
+    .col-left{
+        margin-top: 50px;
+    }
+    .col-left span{
+        font-size: 16px;
+        line-height: normal;
+    }
+    .col-left h1{
+        font-size: 30px;
+    }
+    .col-left p{
+        width: 100%;
+    }
+    a.btn-main span img{
+        margin: 0 0 4px 0;
+    }
+}
