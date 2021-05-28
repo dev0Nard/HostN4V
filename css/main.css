@@ -98,7 +98,8 @@ nav .logo{
 .col-left h1 {
   font-size: 40px;
   font-weight: 800;
-  color: #292423;
+  color: #6B00B9;
+  text-shadow: rgba(0, 0, 0, 0.616) 2px 0 5px;
   line-height: 41px;
   margin-bottom: 15px;
 }
@@ -116,7 +117,7 @@ a.btn-main {
   justify-content: space-between;
   align-items: center;
   padding: 13px 25px;
-  background: #292423;
+  background: #6B00B9;
   width: 190px;
   border-radius: 50px;
   color: #fff;
@@ -130,7 +131,7 @@ a.btn-main {
 }
 a.btn-main:hover {
   background: #fff;
-  color: #292423;
+  color: #6B00B9;
 }
 a.btn-main span {
   display: inline-block;
@@ -146,7 +147,7 @@ a.btn-main span img {
   margin: 0 0 8px 0;
 }
 a.btn-main:hover span {
-  background: #ccc;
+  background: #6B00B9;
 }
 /* Experience  */
 .experience-section {
@@ -165,13 +166,13 @@ a.btn-main:hover span {
 
 .experience-inner .col h3 {
   font-size: 25px;
-  color: #292423;
+  color: #6B00B9;
   font-weight: 700;
   margin-bottom: 5px;
 }
 .experience-inner .col p {
   font-size: 16px;
-  color: #292423;
+  color: #6B00B9;
   font-weight: 300;
   margin-bottom: 0px;
 }
@@ -248,7 +249,7 @@ a.btn-main:hover span {
   display: block;
   width: 100%;
   height: 3px;
-  background: #292423;
+  background: #6B00B9;
   border-radius: 10px;
   margin-bottom: 4px;
 }
@@ -265,12 +266,12 @@ a.btn-main:hover span {
   }
   .navigation-bar {
     position: absolute;
-    top: 79px;
+    top: 70px;
     left: 0;
     right: 0;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    background: rgba(255, 255, 255, 0.9);
+    background: #6c00b90e;
     backdrop-filter: blur(42px);
     border-radius: 10px;
     text-align: center;
