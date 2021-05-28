@@ -40,6 +40,10 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
+nav .logo{
+  font-size: 30px;
+}
 .navigation-bar ul {
   padding: 0;
   margin: 0;
@@ -198,6 +202,10 @@ a.btn-main:hover span {
   }
   .col-left p {
     width: 100%;
+  }
+
+  .col-right img {
+    width: 200px;
   }
   a.btn-main span img {
     margin: 0px 0 4px 0;
